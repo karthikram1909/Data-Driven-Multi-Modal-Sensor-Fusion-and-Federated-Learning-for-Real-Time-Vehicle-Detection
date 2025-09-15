@@ -3,7 +3,12 @@ import numpy as np
 ###########################
 # project-level constants #
 ###########################
-
+VOX_Y_MIN = -40
+VOX_Y_MAX = +40
+VOX_X_MIN = 0
+VOX_X_MAX = 150 #103 #use 150 for lidar else 103 for radar: 1030 will become 1500
+VOX_Z_MIN = -2.5
+VOX_Z_MAX = 2.0
 # observable area in m in velodyne coordinates
 VOX_Y_MIN = -40
 VOX_Y_MAX = +40
